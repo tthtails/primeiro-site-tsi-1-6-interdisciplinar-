@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <title>Usando Fontes</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-tabela.css">
 
 </head>
 
 <body onload="javascript:carregarAlunos()">
     <input type="text" id="inNome" onkeyup="filtrarNome()">
+    <!-- <input type="text" value="inCursText" onkeyup="filtrarCursoText()"> -->
+    <select id="slAprovacao">
+        <option value=""></option>
+        <option value="Aprovados">APROVADOS</option>
+        <option value="Reprovados">REPROVADOS</option>
+    </select>
     <table>
         <thead>
             <tr>
@@ -30,7 +36,8 @@
     </table>
 
     <script src="vetores.js"></script>
-    <script src="alunos.js"></script>
+    <script src="alunosjs.js"></script>
+    <script src="aprovadosjs.js"></script>
 </body>
 
 </html>

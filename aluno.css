@@ -1,0 +1,73 @@
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+}
+.logotipo {
+    width: 400px;
+    position: absolute;
+    margin-left: 38%;
+}
+body{
+    width: 100%;
+}
+#fundo-site{
+    width: 100%;
+}
+.Busca-texto{
+    width: 200px; 
+    position: relative;
+    margin-top: -35%;
+    height: 35px; 
+    float: left; 
+    left: 35%;
+    background-image: url('img/ic_search_white_24dp_1x.png'); 
+    background-position: left;  
+    background-repeat: no-repeat; 
+    background-color: #fff;
+    border: 2px solid #000; 
+    border-radius: 4px; 
+    text-indent: 25px; 
+}
+.Busca-texto2{
+    width: 200px; 
+    position: relative;
+    margin-top: -30%;
+    height: 35px; 
+    float: left; 
+    left: 35%;
+    background-image: url('img/ic_search_white_24dp_1x.png'); 
+    background-position: left;  
+    background-repeat: no-repeat; 
+    background-color: #fff;
+    border: 2px solid #000; 
+    border-radius: 4px; 
+    text-indent: 25px; 
+}
+.enviar {
+    text-align: center;
+    width: 20%;
+    margin-top: -30%;
+    padding: 15px 0;
+    background-color: rgb(23, 6, 202);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+}
+.enviar:hover {
+    text-align: center;
+    color: rgb(3, 3, 3);
+    background-color: rgb(243, 147, 13);
+}
+.home{
+    width: 50px;
+    margin-left: 20px;
+}

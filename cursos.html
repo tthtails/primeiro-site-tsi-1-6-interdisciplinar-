@@ -3,38 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Usando Fontes</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="style/cursos.css">
+    <link rel="stylesheet" href="style/reset.css">
 </head>
 
 <body>
-    <select id="slCursos">
-        <option value=""></option>
-        <option value="Python Pandas: tratando e analisando dados">Python Pandas: tratando e analisando dados</option>
-        <option value="JavaScript: interfaces e Herança em Orientação a Objetos">JavaScript: interfaces e Herança em Orientação a Objetos</option>
-        <option value="React Native: criando um app">React Native: criando um app</option>
-        <option value="Bootstrap 4: criando uma landing page responsiva">Bootstrap 4: criando uma landing page responsiva</option>
-        <option value="Kotlin e Spring: segurança e infraestrutura">Kotlin e Spring: segurança e infraestrutura</option>
-        <option value="Reconhecimento de imagens: Twitter e Computer Vision API">Reconhecimento de imagens: Twitter e Computer Vision API</option>
-        <option value="Lógica de programação I: crie programas com Javascript e HTML">Lógica de programação I: crie programas com Javascript e HTML</option>
-        <option value="HTML5 e CSS3: crie uma página da Web">HTML5 e CSS3: crie uma página da Web</option>
-        <option value="UX: metodologias práticas para designers">UX: metodologias práticas para designers</option>
-        <option value="Modelagem de banco de dados relacional: modelagem lógica e física">Modelagem de banco de dados relacional: modelagem lógica e física</option>
-        <option value="JavaScript na Web: validação de Formulários e HTML5">JavaScript na Web: validação de Formulários e HTML5</option>
-        <option value="Modelagem de banco de dados relacional: entendendo SQL">Modelagem de banco de dados relacional: entendendo SQL</option>
-        <option value="Adobe XD: design visual de um site mobile">Adobe XD: design visual de um site mobile</option>
-        <option value="Modelagem de banco de dados: entidades, relacionamentos e atributos">Modelagem de banco de dados: entidades, relacionamentos e atributos</option>
-        <input type="button" id="btConfirmar" value="CONFIRMAR">
-        <table>
-            <tbody class="corpoTabela">
-
-            </tbody>
-        </table>
-
-        <script src="vetores.js"></script>
-        <script src="cursos.js"></script>
+    <header>
+        <nav>
+            <img class="logotipo" src="imagens/logotipo.png">
+            <a class="nav-itens1" href="home.html">HOME</a>
+            <a class="nav-itens2" href="cursos.html">CURSOS</a>
+            <a class="nav-itens3" href="">CONTATO</a>
+            <a href="aluno.html"><img class="area-estudante" src="imagens/aluno.png"></a>
+        </nav>
+    </header>
+    <main>
+        <figure>
+            <img class="adobexd" src="cursos-img/Adobexd.png" alt="">
+            <img class="bootstrap4" src="cursos-img/Bootstrap4.png" alt="">
+            <img class="html" src="cursos-img/HTML5_e_CSS3.png" alt="">
+            <img class="logica" src="cursos-img/Lógica_de_programação_I.png" alt="">
+            <img class="js" src="cursos-img/JavaScript.png" alt="">
+            <img class="python" src="cursos-img/Python_Pandas.png" alt="">
+            <img class="kotlin" src="cursos-img/Kotlin_e_Spring.png" alt="">
+            <img class="banco-entidades" src="cursos-img/Modelagem_de_banco_de_dados_entidades.png" alt="">
+            <img class="banco-relacional" src="cursos-img/Modelagem_de_banco_de_dados_relacional.png" alt="">
+            <img class="banco-sql" src="cursos-img/Modelagem_de_banco_de_dadosSQL.png" alt="">
+            <img class="reactive" src="cursos-img/React_Native.png" alt="">
+            <img class="reconhecimento-imagens" src="cursos-img/Reconhecimento_de_imagens.png" alt="">
+            <img class="ux" src="cursos-img/UX.png" alt="">
+        </figure>
+        <section class="informacoes">
+          <img class="info" src="cursos-img/aprovacao.png" alt="">
+             <img class="certificado" src="cursos-img/certficado.png" alt="">
+        </section>
+    </main>
+    <footer>
+        <h5 class="titulo5">SOBRE NÓS:</h5>
+        <p>A InfoDev é uma organização preparada para prestar <br>serviços educacionais a distância, com os valores e <br> objetivos sempre pensando no <br> melhor aprendizado do cursando.</p>
+        <img class="footer" src="imagens/footer.png" alt="">
+</footer>
 </body>
 
 </html>
