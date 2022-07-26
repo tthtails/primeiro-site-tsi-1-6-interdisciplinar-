@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Usando Fontes</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="javascript:carregarAlunos()">
+    <input type="text" id="inNome" onkeyup="filtrarNome()">
+    <table>
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th>Cursos</th>
+                <th>Prova 1</th>
+                <th>Prova 2</th>
+                <th>Participação</th>
+                <th>Faltas</th>
+                <th>Média</th>
+                <th>Porcentagem de faltas</th>
+                <th>Aprovação</th>
+            </tr>
+        </thead>
+        <tbody class="corpoTabela">
+        </tbody>
+    </table>
+
+    <script src="vetores.js"></script>
+    <script src="alunos.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+thead{
+	background-color: #AAAAAA;
+	font: bold;
+}
+th, td{
+	width:300px;
+	border: 1px solid black;
+	padding: 3px;
+	font-size: 20px;
+}
