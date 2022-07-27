@@ -33,8 +33,7 @@ function carregarVetores() {
 
         if (mediaAluno < 60) {
             tdAprovacao.textContent = "Reprovado por nota!";
-        }
-        else {
+        } else {
             if (percentualFaltas > 25) {
                 tdAprovacao.textContent = "Reprovado por falta!"
             }
@@ -117,7 +116,7 @@ function filtrarAlunos() {
         }
     }
 }
-function filtrarCurso() {
+function filtrarCursos() {
 
     var cursoFiltrado = inCursoFiltro.value;
     var nomeAluno = inNome.value;
@@ -180,3 +179,4 @@ function filtrarCurso() {
         }
     }
 }
+

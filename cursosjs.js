@@ -1,5 +1,4 @@
 var slCursos = document.getElementById("slCursos");
-
 function carregarCursos() {
     var cursos = slCursos.value;
     var corpoTabela = document.querySelector(".corpoTabela");
@@ -10,7 +9,7 @@ function carregarCursos() {
         var mediaAluno = 0;
         var percentualFaltas = 0;
 
-        
+
         if (vetCursos[i].indexOf(cursos) != -1) {
             var tr = document.createElement("tr");
             var tdNomeCurso = document.createElement("td");
