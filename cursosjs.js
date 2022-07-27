@@ -1,4 +1,3 @@
-
 var slCursos = document.getElementById("slCursos");
 
 function carregarCursos() {

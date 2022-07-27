@@ -120,13 +120,14 @@ function filtrarAlunos() {
 function filtrarCurso() {
 
     var cursoFiltrado = inCursoFiltro.value;
+    var nomeAluno = inNome.value;
 
     var corpoTabela = document.querySelector(".corpoTabela");
 
     corpoTabela.innerText = "";
 
     for (var i = 0; i < vetAlunos.length; i++) {
-        if (vetCursos[i].toLocaleLowerCase().indexOf(cursoFiltrado.toLocaleLowerCase()) != -1) {
+        if (vetCursos[i].toLocaleLowerCase().indexOf(cursoFiltrado.toLocaleLowerCase()) != -1 && vetAlunos[i].toLocaleLowerCase().indexOf(nomeAluno.toLocaleLowerCase()) != -1) {
             var mediaAluno = 0;
             var percentualFaltas = 0;
 
