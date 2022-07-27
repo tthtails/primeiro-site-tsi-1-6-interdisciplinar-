@@ -9,14 +9,9 @@
 
 </head>
 
-<body onload="javascript:carregarAlunos()">
-    <input type="text" id="inNome" onkeyup="filtrarNome()">
-    <!-- <input type="text" value="inCursText" onkeyup="filtrarCursoText()"> -->
-    <select id="slAprovacao">
-        <option value=""></option>
-        <option value="Aprovados">APROVADOS</option>
-        <option value="Reprovados">REPROVADOS</option>
-    </select>
+<body onload="javascript:carregarVetores()">
+    <input type="text" id="inNome" onkeyup="filtrarAlunos()">
+    <input type="text" id="inCursoFiltro" onkeyup="filtrarCurso()">
     <table>
         <thead>
             <tr>
@@ -37,7 +32,7 @@
 
     <script src="vetores.js"></script>
     <script src="alunosjs.js"></script>
-    <script src="aprovadosjs.js"></script>
+    <script src="filtrojs.js"></script>
 </body>
 
 </html>
