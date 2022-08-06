@@ -3,36 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Usando Fontes</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style-tabela.css">
+    <title>INFODEV</title>
+    <link rel="stylesheet" href="../trabalho/css/reset.css">
+    <link rel="stylesheet" href="../trabalho/css/style-tabela.css">
+    <link rel="stylesheet" href="../trabalho/css/alunojs.css">
 
 </head>
 
-<body onload="javascript:carregarVetores()">
-    <input type="text" id="inNome" onkeyup="filtrarAlunos()">
-    <input type="text" id="inCursoFiltro" onkeyup="filtrarCurso()">
-    <table>
-        <thead>
-            <tr>
-                <th>Aluno</th>
-                <th>Cursos</th>
-                <th>Prova 1</th>
-                <th>Prova 2</th>
-                <th>Participação</th>
-                <th>Faltas</th>
-                <th>Média</th>
-                <th>Porcentagem de faltas</th>
-                <th>Aprovação</th>
-            </tr>
-        </thead>
-        <tbody class="corpoTabela">
-        </tbody>
-    </table>
+<body>
+    <header>
+        <nav>
+            <img class="logotipo" src="imagens/logotipo.png">
+            <a class="nav-itens1" href="home.html">HOME</a>
+            <a class="nav-itens2" href="cursos.html">CURSOS</a>
+            <a class="nav-itens3" href="contato.html">CONTATO</a>
+            <a href="aluno.html"  href="alunosjs.html"><img class="area-estudante" src="imagens/aluno.png"></a>
+        </nav>
+    </header>
+    <a class="bt" href="#"> &#9650; </a>
+    <main>
+        <input class="pesquisa" type="text" id="inNome" placeholder="Insira o nome do Aluno">
+        <input class="pesquisa" type="text" id="inCurso" placeholder="Insira o nome do Curso">
+        <h1 class="titulo1">Veja abaixo os resultados dos nossos alunos ✍👨‍🎓</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aluno</th>
+                    <th>Cursos</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Participação</th>
+                    <th>Faltas</th>
+                    <th>Média</th>
+                    <th>Porcentagem de faltas</th>
+                    <th>Aprovação</th>
+                </tr>
+            </thead>
+            <tbody class="corpoTabela">
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <h5 class="titulo5">SOBRE NÓS:</h5>
+        <p>A InfoDev é uma organização preparada para prestar <br>serviços educacionais a distância, com os valores e <br> objetivos sempre pensando no <br> melhor aprendizado do cursando.</p>
+        <img class="footer" src="imagens/footer.png" alt="">
+</footer>
+<a class="bt" href="#"> &#9830; </a>
 
-    <script src="vetores.js"></script>
-    <script src="alunosjs.js"></script>
-    <script src="filtrojs.js"></script>
+    <script src="../trabalho/js/vetores.js"></script>
+    <script src="../trabalho/js/alunosjs.js"></script>
 </body>
 
 </html>
