@@ -43,14 +43,12 @@ function tabelaComFiltro() {
 
             tdAprovacao.textContent = "Aprovado!";
 
-            if (mediaAluno < 60) {
-                tdAprovacao.textContent = "Reprovado por nota!";
-            }
-            else {
+            
                 if (percentualFaltas > 25) {
-                    tdAprovacao.textContent = "Reprovado por falta!";
+                    tdAprovacao.textContent = "Reprovado!";
+                } else if (mediaAluno < 60) {
+                    tdAprovacao.textContent = "Reprovado por nota!";
                 }
-            }
 
             tr.appendChild(tdNomeAluno);
             tr.appendChild(tdNomeCurso);

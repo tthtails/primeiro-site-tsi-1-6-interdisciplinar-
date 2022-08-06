@@ -10,33 +10,32 @@ header {
   width: 200px;
   position: absolute;
   margin-left: 5%;
-  margin-top: -5%;
+  margin-top: -5.3%;
   
 }
 
 .nav-itens1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
-  margin-left: 37%;
-  margin-top: 1.1%;
+  margin-left: 69%;
+  margin-top: 1.2%;
   color: white;
 
 }
 
 .nav-itens2 {
-  font-size: larger;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
-  margin-left: 47%;
-  margin-top: 1.1%;
+  margin-left: 75%;
+  margin-top: 1.2%;
   color: white;
 }
 
 .nav-itens3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
-  margin-left: 57%;
-  margin-top: 1.1%;
+  margin-left: 82%;
+  margin-top: 1.2%;
   color: white;
 }
 
@@ -44,7 +43,7 @@ header {
 .area-estudante {
   position: relative;
   width: 50px;
-  margin-left: 96%;
+  margin-left: 93%;
   margin-top: 0.2%;
 }
 .fundo-pesquisa {
