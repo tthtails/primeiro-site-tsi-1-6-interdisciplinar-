@@ -1,14 +1,15 @@
 header {
-    background: rgb(77, 77, 77);
+    background: rgb(0, 0, 0);
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10px;
+    z-index: 100;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
 
-body {
-    background: linear-gradient(white 30%, #7777 20%, white 20%);
+main {
+    background: linear-gradient(white 10%, #7777);
 }
 
 .logotipo {
@@ -22,16 +23,15 @@ body {
 .nav-itens1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    margin-left: 69%;
+    margin-left: 40%;
     margin-top: 1.2%;
     color: white;
 }
 
-
 .nav-itens2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    margin-left: 75%;
+    margin-left: 50%;
     margin-top: 1.2%;
     color: white;
 }
@@ -39,7 +39,7 @@ body {
 .nav-itens3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    margin-left: 82%;
+    margin-left: 60%;
     margin-top: 1.2%;
     color: white;
 }
@@ -51,26 +51,8 @@ body {
     margin-top: 0.2%;
 }
 
-.fundo-pesquisa {
-    width: 100%;
-}
-
-.informacoes {
-    position: relative;
-
-    margin-top: 5%;
-
-}
-
 body {
     background: linear-gradient(#7777);
-}
-
-main,
-p {
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 10px;
 }
 
 .acessar {
@@ -92,62 +74,51 @@ p {
     border-radius: 50px;
 }
 
-
-
 .acessar:hover {
     text-align: center;
     color: rgb(3, 3, 3);
     background-color: rgb(243, 147, 13);
 }
 
-.Cursos {
-    margin-top: 10%;
+.cursos {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+    row-gap: 50px;
+    margin-top: 20px;
+}
+
+.img-cursos {
     width: 150px;
 }
 
-.info {
-    width: 350px;
-    margin-left: 150px;
-}
+.div-cursos {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid 3px black;
+    border-radius: 10px;
+    box-shadow: 3px 8px gray;
+    margin: 20px 50px 20px 0;
+    padding: 20px;
 
-.informacoes p {
-    font-size: 40px;
-    margin-top: 20px;
-}
-
-.certificado {
-
-    width: 350px;
-    margin-left: 60%;
-    margin-top: -25%;
-}
-
-.info-certificado {
-    position: relative;
-    margin-top: 80%;
-    margin-left: 60%;
 }
 
 footer {
-    position: relative;
-    background: linear-gradient(white 1%, #7777);
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding: 40px 0;
+
 }
 
-.titulo5 {
-    font-size: large;
-    font-size: 50px;
-    font-style: italic;
-    margin-left: 370px;
-}
-
-footer p {
-    font-size: 25px;
-    margin-top: 20px;
-    margin-left: 30px;
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0 0;
 }
 
 .footer {
-    width: 250px;
-    margin-top: -10%;
-    margin-left: 50%;
+    width: 100px;
 }

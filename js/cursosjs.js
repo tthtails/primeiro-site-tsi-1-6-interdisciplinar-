@@ -2,10 +2,10 @@ var slCursos = document.getElementById("slCursos");
 var btConfirmar = document.getElementById("btConfirmar");
 
 function carregarCursos() {
-    
+
     var cursos = slCursos.value;
     var corpoTabela = document.querySelector(".corpoTabela");
-    
+
     corpoTabela.textContent = "";
 
     for (var i = 0; i < vetAlunos.length; i++) {
@@ -14,7 +14,7 @@ function carregarCursos() {
         var percentualFaltas = 0;
 
         if (vetCursos[i].indexOf(cursos) != -1) {
-            
+
             var tr = document.createElement("tr");
             var tdNomeCurso = document.createElement("td");
             var tdNomeAluno = document.createElement("td");
@@ -27,7 +27,7 @@ function carregarCursos() {
             percentualFaltas = (vetFalta[i] / 50) * 100;
 
             if (mediaAluno > 60 && percentualFaltas < 25) {
-                
+
                 tr.appendChild(tdNomeCurso);
                 tr.appendChild(tdNomeAluno);
             }

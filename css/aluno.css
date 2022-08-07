@@ -1,51 +1,57 @@
 header {
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     z-index: 999px;
 }
+
 .logotipo {
     width: 400px;
     position: absolute;
     margin-left: 38%;
 }
-body{
+
+body {
     width: 100%;
 }
-#fundo-site{
+
+#fundo-site {
     width: 100%;
 }
-.Busca-texto{
-    width: 200px; 
+
+.Busca-texto {
+    width: 200px;
     position: relative;
     margin-top: -35%;
-    height: 35px; 
-    float: left; 
+    height: 35px;
+    float: left;
     left: 35%;
-    background-image: url('img/ic_search_white_24dp_1x.png'); 
-    background-position: left;  
-    background-repeat: no-repeat; 
+    background-image: url('img/ic_search_white_24dp_1x.png');
+    background-position: left;
+    background-repeat: no-repeat;
     background-color: #fff;
-    border: 2px solid #000; 
-    border-radius: 4px; 
-    text-indent: 25px; 
+    border: 2px solid #000;
+    border-radius: 4px;
+    text-indent: 25px;
 }
-.Busca-texto2{
-    width: 200px; 
+
+.Busca-texto2 {
+    width: 200px;
     position: relative;
     margin-top: -30%;
-    height: 35px; 
-    float: left; 
+    height: 35px;
+    float: left;
     left: 35%;
-    background-image: url('img/ic_search_white_24dp_1x.png'); 
-    background-position: left;  
-    background-repeat: no-repeat; 
+    background-image: url('img/ic_search_white_24dp_1x.png');
+    background-position: left;
+    background-repeat: no-repeat;
     background-color: #fff;
-    border: 2px solid #000; 
-    border-radius: 4px; 
-    text-indent: 25px; 
+    border: 2px solid #000;
+    border-radius: 4px;
+    text-indent: 25px;
 }
+
 .enviar {
     text-align: center;
     width: 20%;
@@ -62,12 +68,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     border-radius: 50px;
 }
+
 .enviar:hover {
     text-align: center;
     color: rgb(3, 3, 3);
     background-color: rgb(243, 147, 13);
 }
-.home{
+
+.home {
     width: 50px;
     margin-left: 20px;
 }
